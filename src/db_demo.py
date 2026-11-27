@@ -1,4 +1,3 @@
-cat << 'EOF' > src/db_demo.py
 import os
 import json
 import psycopg
@@ -57,4 +56,3 @@ with psycopg.connect(DATABASE_URL) as conn:
 
     conn.commit()
 print("Islem basariyla tamamlandi.")
-EOF
